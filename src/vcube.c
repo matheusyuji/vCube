@@ -46,7 +46,6 @@ int main (int argc, char *argv[]) {
   // inicializar processos
 
   tam_cluster = (int)log2(N); // calcula o tamanho do cluster baseado no numero de processos
-  //printf("Tamando do cluster: %d\n", tam_cluster);
 
   processo = (TipoProcesso *) malloc(sizeof(TipoProcesso)*N);
 
@@ -80,8 +79,20 @@ int main (int argc, char *argv[]) {
   for (i=0; i<N; i++) {
     schedule(test, 30.0, i); 
   }
-  schedule(fault, 31.0, 1);
-  schedule(recovery, 61.0, 1);
+
+  // Teste 0
+  //schedule(fault, 31.0, 1);
+  //schedule(recovery, 61.0, 1);
+
+  // Teste 3
+  //schedule(fault, 31.0, 1);
+  //schedule(fault, 31.0, 2);
+  //schedule(fault, 31.0, 4);
+  //schedule(fault, 31.0, 7);
+
+  // Teste 4
+  //schedule(fault, 31.0, 0);
+  //schedule(recovery, 61.0, 1);
 
   // agora vem o loop principal do simulador
 
@@ -104,7 +115,7 @@ int main (int argc, char *argv[]) {
 
             // testa se o primeiro processo do cluster esta correto
             if (status(processo[first].id) == 0) { 
-              printf("O processo %d testou o processo %d CORRETO no tempo %4.1f\n", token, first, time());
+              printf("Processo %d testou o Processo %d CORRETO no tempo %4.1f\n", token, first, time());
               
               if (processo[token].state[first] % 2 == 1)
                 processo[token].state[first]++;
@@ -113,17 +124,17 @@ int main (int argc, char *argv[]) {
               for (k = 0; k < N; k++) {         
                 if ((processo[first].state[k] > processo[token].state[k])) {         
                   processo[token].state[k] = processo[first].state[k];
-                  printf("O processo %d recebeu INFORMACAO do processo %d no tempo %4.1f\n", token, k, time());
+                  printf("Processo %d recebeu INFORMACAO do Processo %d no tempo %4.1f\n", token, k, time());
                 }
               }
             } else {
-              printf("O processo %d testou o processo %d FALHO no tempo %4.1f\n", token, first, time());
+              printf("Processo %d testou o Processo %d FALHO no tempo %4.1f\n", token, first, time());
               if (processo[token].state[first] % 2 == 0)
-              processo[token].state[first]++;
+                processo[token].state[first]++;
             }
           } 
 
-          printf("Vetor STATE do processo %d: [", token);
+          printf("Vetor STATE do Processo %d: [", token);
           for (int k = 0; k < N; k++) {
             if (processo[token].state[k] % 2 == 0)
               printf (" CORRETO");
