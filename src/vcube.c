@@ -30,7 +30,6 @@ int main (int argc, char *argv[]) {
             tam_cluster, first,
             MaxTempoSimulac = 150;
            
-
   static char fa_name[5];
 
   if (argc != 2) {
@@ -43,7 +42,6 @@ int main (int argc, char *argv[]) {
   smpl(0, "Um Exemplo de Simulacao");
   reset();
   stream(1);
-
 
   // inicializar processos
 
@@ -106,24 +104,33 @@ int main (int argc, char *argv[]) {
 
             // testa se o primeiro processo do cluster esta correto
             if (status(processo[first].id) == 0) { 
-              printf("O processo %d testou o processo %d correto no tempo %4.1f\n", token, first, time());
-              processo[token].state[first] = 0;
-          
+              printf("O processo %d testou o processo %d CORRETO no tempo %4.1f\n", token, first, time());
+              
+              if (processo[token].state[first] % 2 == 1)
+                processo[token].state[first]++;
+
+              // recebe a informacao de qualquer novidade
               for (k = 0; k < N; k++) {         
                 if ((processo[first].state[k] > processo[token].state[k])) {         
                   processo[token].state[k] = processo[first].state[k];
-                  printf("O processo %d recebeu informacao do processo %d no tempo %4.1f\n", token, k, time());
+                  printf("O processo %d recebeu INFORMACAO do processo %d no tempo %4.1f\n", token, k, time());
                 }
               }
             } else {
-              printf("O processo %d testou o processo %d falho no tempo %4.1f\n", token, first, time());
-              processo[token].state[first] = 1;
+              printf("O processo %d testou o processo %d FALHO no tempo %4.1f\n", token, first, time());
+              if (processo[token].state[first] % 2 == 0)
+              processo[token].state[first]++;
             }
           } 
 
-          printf("Vetor state do processo %d: [", token);
+          printf("Vetor STATE do processo %d: [", token);
           for (int k = 0; k < N; k++) {
-            printf (" %d", processo[token].state[k]);
+            if (processo[token].state[k] % 2 == 0)
+              printf (" CORRETO");
+            else if (processo[token].state[k] % 2 == 1)
+              printf (" FALHO");
+            else if (processo[token].state[k] == -1)
+              printf (" UNKNOWN");
           }
           printf (" ]\n");
           puts("");
