@@ -1,0 +1,635 @@
+===============================================================
+           Sistemas Distribuidos Prof. Elias
+          LOG do Trabalho Pratico 1, VCube
+   Este programa foi executado para: N=16 processos.
+           Tempo Total de Simulacao = 150
+===============================================================
+Processo 0 testou o Processo 1 CORRETO no tempo 30.0
+Processo 0 recebeu INFORMACAO do Processo 1 no tempo 30.0
+Processo 0 testou o Processo 2 CORRETO no tempo 30.0
+Processo 0 recebeu INFORMACAO do Processo 2 no tempo 30.0
+Processo 0 testou o Processo 4 CORRETO no tempo 30.0
+Processo 0 recebeu INFORMACAO do Processo 4 no tempo 30.0
+Processo 0 testou o Processo 8 CORRETO no tempo 30.0
+Processo 0 recebeu INFORMACAO do Processo 8 no tempo 30.0
+Vetor STATE do Processo 0: [ CORRETO CORRETO CORRETO UNKNOWN CORRETO UNKNOWN UNKNOWN UNKNOWN CORRETO UNKNOWN UNKNOWN UNKNOWN UNKNOWN UNKNOWN UNKNOWN UNKNOWN ]
+
+Processo 1 testou o Processo 0 CORRETO no tempo 30.0
+Processo 1 recebeu INFORMACAO do Processo 0 no tempo 30.0
+Processo 1 recebeu INFORMACAO do Processo 2 no tempo 30.0
+Processo 1 recebeu INFORMACAO do Processo 4 no tempo 30.0
+Processo 1 recebeu INFORMACAO do Processo 8 no tempo 30.0
+Processo 1 testou o Processo 3 CORRETO no tempo 30.0
+Processo 1 recebeu INFORMACAO do Processo 3 no tempo 30.0
+Processo 1 testou o Processo 5 CORRETO no tempo 30.0
+Processo 1 recebeu INFORMACAO do Processo 5 no tempo 30.0
+Processo 1 testou o Processo 9 CORRETO no tempo 30.0
+Processo 1 recebeu INFORMACAO do Processo 9 no tempo 30.0
+Vetor STATE do Processo 1: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN UNKNOWN CORRETO CORRETO UNKNOWN UNKNOWN UNKNOWN UNKNOWN UNKNOWN UNKNOWN ]
+
+Processo 2 testou o Processo 3 CORRETO no tempo 30.0
+Processo 2 recebeu INFORMACAO do Processo 3 no tempo 30.0
+Processo 2 testou o Processo 0 CORRETO no tempo 30.0
+Processo 2 recebeu INFORMACAO do Processo 0 no tempo 30.0
+Processo 2 recebeu INFORMACAO do Processo 1 no tempo 30.0
+Processo 2 recebeu INFORMACAO do Processo 4 no tempo 30.0
+Processo 2 recebeu INFORMACAO do Processo 8 no tempo 30.0
+Processo 2 testou o Processo 6 CORRETO no tempo 30.0
+Processo 2 recebeu INFORMACAO do Processo 6 no tempo 30.0
+Processo 2 testou o Processo 10 CORRETO no tempo 30.0
+Processo 2 recebeu INFORMACAO do Processo 10 no tempo 30.0
+Vetor STATE do Processo 2: [ CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN CORRETO UNKNOWN CORRETO UNKNOWN CORRETO UNKNOWN UNKNOWN UNKNOWN UNKNOWN UNKNOWN ]
+
+Processo 3 testou o Processo 2 CORRETO no tempo 30.0
+Processo 3 recebeu INFORMACAO do Processo 0 no tempo 30.0
+Processo 3 recebeu INFORMACAO do Processo 1 no tempo 30.0
+Processo 3 recebeu INFORMACAO do Processo 2 no tempo 30.0
+Processo 3 recebeu INFORMACAO do Processo 4 no tempo 30.0
+Processo 3 recebeu INFORMACAO do Processo 6 no tempo 30.0
+Processo 3 recebeu INFORMACAO do Processo 8 no tempo 30.0
+Processo 3 recebeu INFORMACAO do Processo 10 no tempo 30.0
+Processo 3 testou o Processo 1 CORRETO no tempo 30.0
+Processo 3 recebeu INFORMACAO do Processo 5 no tempo 30.0
+Processo 3 recebeu INFORMACAO do Processo 9 no tempo 30.0
+Processo 3 testou o Processo 7 CORRETO no tempo 30.0
+Processo 3 recebeu INFORMACAO do Processo 7 no tempo 30.0
+Processo 3 testou o Processo 11 CORRETO no tempo 30.0
+Processo 3 recebeu INFORMACAO do Processo 11 no tempo 30.0
+Vetor STATE do Processo 3: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN UNKNOWN UNKNOWN UNKNOWN ]
+
+Processo 4 testou o Processo 5 CORRETO no tempo 30.0
+Processo 4 recebeu INFORMACAO do Processo 5 no tempo 30.0
+Processo 4 testou o Processo 6 CORRETO no tempo 30.0
+Processo 4 recebeu INFORMACAO do Processo 6 no tempo 30.0
+Processo 4 testou o Processo 0 CORRETO no tempo 30.0
+Processo 4 recebeu INFORMACAO do Processo 0 no tempo 30.0
+Processo 4 recebeu INFORMACAO do Processo 1 no tempo 30.0
+Processo 4 recebeu INFORMACAO do Processo 2 no tempo 30.0
+Processo 4 recebeu INFORMACAO do Processo 8 no tempo 30.0
+Processo 4 testou o Processo 12 CORRETO no tempo 30.0
+Processo 4 recebeu INFORMACAO do Processo 12 no tempo 30.0
+Vetor STATE do Processo 4: [ CORRETO CORRETO CORRETO UNKNOWN CORRETO CORRETO CORRETO UNKNOWN CORRETO UNKNOWN UNKNOWN UNKNOWN CORRETO UNKNOWN UNKNOWN UNKNOWN ]
+
+Processo 5 testou o Processo 4 CORRETO no tempo 30.0
+Processo 5 recebeu INFORMACAO do Processo 0 no tempo 30.0
+Processo 5 recebeu INFORMACAO do Processo 1 no tempo 30.0
+Processo 5 recebeu INFORMACAO do Processo 2 no tempo 30.0
+Processo 5 recebeu INFORMACAO do Processo 4 no tempo 30.0
+Processo 5 recebeu INFORMACAO do Processo 6 no tempo 30.0
+Processo 5 recebeu INFORMACAO do Processo 8 no tempo 30.0
+Processo 5 recebeu INFORMACAO do Processo 12 no tempo 30.0
+Processo 5 testou o Processo 7 CORRETO no tempo 30.0
+Processo 5 recebeu INFORMACAO do Processo 7 no tempo 30.0
+Processo 5 testou o Processo 1 CORRETO no tempo 30.0
+Processo 5 recebeu INFORMACAO do Processo 3 no tempo 30.0
+Processo 5 recebeu INFORMACAO do Processo 9 no tempo 30.0
+Processo 5 testou o Processo 13 CORRETO no tempo 30.0
+Processo 5 recebeu INFORMACAO do Processo 13 no tempo 30.0
+Vetor STATE do Processo 5: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN UNKNOWN CORRETO CORRETO UNKNOWN UNKNOWN ]
+
+Processo 6 testou o Processo 7 CORRETO no tempo 30.0
+Processo 6 recebeu INFORMACAO do Processo 7 no tempo 30.0
+Processo 6 testou o Processo 4 CORRETO no tempo 30.0
+Processo 6 recebeu INFORMACAO do Processo 0 no tempo 30.0
+Processo 6 recebeu INFORMACAO do Processo 1 no tempo 30.0
+Processo 6 recebeu INFORMACAO do Processo 2 no tempo 30.0
+Processo 6 recebeu INFORMACAO do Processo 4 no tempo 30.0
+Processo 6 recebeu INFORMACAO do Processo 5 no tempo 30.0
+Processo 6 recebeu INFORMACAO do Processo 8 no tempo 30.0
+Processo 6 recebeu INFORMACAO do Processo 12 no tempo 30.0
+Processo 6 testou o Processo 2 CORRETO no tempo 30.0
+Processo 6 recebeu INFORMACAO do Processo 3 no tempo 30.0
+Processo 6 recebeu INFORMACAO do Processo 10 no tempo 30.0
+Processo 6 testou o Processo 14 CORRETO no tempo 30.0
+Processo 6 recebeu INFORMACAO do Processo 14 no tempo 30.0
+Vetor STATE do Processo 6: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN CORRETO UNKNOWN CORRETO UNKNOWN CORRETO UNKNOWN ]
+
+Processo 7 testou o Processo 6 CORRETO no tempo 30.0
+Processo 7 recebeu INFORMACAO do Processo 0 no tempo 30.0
+Processo 7 recebeu INFORMACAO do Processo 1 no tempo 30.0
+Processo 7 recebeu INFORMACAO do Processo 2 no tempo 30.0
+Processo 7 recebeu INFORMACAO do Processo 3 no tempo 30.0
+Processo 7 recebeu INFORMACAO do Processo 4 no tempo 30.0
+Processo 7 recebeu INFORMACAO do Processo 5 no tempo 30.0
+Processo 7 recebeu INFORMACAO do Processo 6 no tempo 30.0
+Processo 7 recebeu INFORMACAO do Processo 8 no tempo 30.0
+Processo 7 recebeu INFORMACAO do Processo 10 no tempo 30.0
+Processo 7 recebeu INFORMACAO do Processo 12 no tempo 30.0
+Processo 7 recebeu INFORMACAO do Processo 14 no tempo 30.0
+Processo 7 testou o Processo 5 CORRETO no tempo 30.0
+Processo 7 recebeu INFORMACAO do Processo 9 no tempo 30.0
+Processo 7 recebeu INFORMACAO do Processo 13 no tempo 30.0
+Processo 7 testou o Processo 3 CORRETO no tempo 30.0
+Processo 7 recebeu INFORMACAO do Processo 11 no tempo 30.0
+Processo 7 testou o Processo 15 CORRETO no tempo 30.0
+Processo 7 recebeu INFORMACAO do Processo 15 no tempo 30.0
+Vetor STATE do Processo 7: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 8 testou o Processo 9 CORRETO no tempo 30.0
+Processo 8 recebeu INFORMACAO do Processo 9 no tempo 30.0
+Processo 8 testou o Processo 10 CORRETO no tempo 30.0
+Processo 8 recebeu INFORMACAO do Processo 10 no tempo 30.0
+Processo 8 testou o Processo 12 CORRETO no tempo 30.0
+Processo 8 recebeu INFORMACAO do Processo 12 no tempo 30.0
+Processo 8 testou o Processo 0 CORRETO no tempo 30.0
+Processo 8 recebeu INFORMACAO do Processo 0 no tempo 30.0
+Processo 8 recebeu INFORMACAO do Processo 1 no tempo 30.0
+Processo 8 recebeu INFORMACAO do Processo 2 no tempo 30.0
+Processo 8 recebeu INFORMACAO do Processo 4 no tempo 30.0
+Vetor STATE do Processo 8: [ CORRETO CORRETO CORRETO UNKNOWN CORRETO UNKNOWN UNKNOWN UNKNOWN CORRETO CORRETO CORRETO UNKNOWN CORRETO UNKNOWN UNKNOWN UNKNOWN ]
+
+Processo 9 testou o Processo 8 CORRETO no tempo 30.0
+Processo 9 recebeu INFORMACAO do Processo 0 no tempo 30.0
+Processo 9 recebeu INFORMACAO do Processo 1 no tempo 30.0
+Processo 9 recebeu INFORMACAO do Processo 2 no tempo 30.0
+Processo 9 recebeu INFORMACAO do Processo 4 no tempo 30.0
+Processo 9 recebeu INFORMACAO do Processo 8 no tempo 30.0
+Processo 9 recebeu INFORMACAO do Processo 10 no tempo 30.0
+Processo 9 recebeu INFORMACAO do Processo 12 no tempo 30.0
+Processo 9 testou o Processo 11 CORRETO no tempo 30.0
+Processo 9 recebeu INFORMACAO do Processo 11 no tempo 30.0
+Processo 9 testou o Processo 13 CORRETO no tempo 30.0
+Processo 9 recebeu INFORMACAO do Processo 13 no tempo 30.0
+Processo 9 testou o Processo 1 CORRETO no tempo 30.0
+Processo 9 recebeu INFORMACAO do Processo 3 no tempo 30.0
+Processo 9 recebeu INFORMACAO do Processo 5 no tempo 30.0
+Vetor STATE do Processo 9: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN UNKNOWN CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN UNKNOWN ]
+
+Processo 10 testou o Processo 11 CORRETO no tempo 30.0
+Processo 10 recebeu INFORMACAO do Processo 11 no tempo 30.0
+Processo 10 testou o Processo 8 CORRETO no tempo 30.0
+Processo 10 recebeu INFORMACAO do Processo 0 no tempo 30.0
+Processo 10 recebeu INFORMACAO do Processo 1 no tempo 30.0
+Processo 10 recebeu INFORMACAO do Processo 2 no tempo 30.0
+Processo 10 recebeu INFORMACAO do Processo 4 no tempo 30.0
+Processo 10 recebeu INFORMACAO do Processo 8 no tempo 30.0
+Processo 10 recebeu INFORMACAO do Processo 9 no tempo 30.0
+Processo 10 recebeu INFORMACAO do Processo 12 no tempo 30.0
+Processo 10 testou o Processo 14 CORRETO no tempo 30.0
+Processo 10 recebeu INFORMACAO do Processo 14 no tempo 30.0
+Processo 10 testou o Processo 2 CORRETO no tempo 30.0
+Processo 10 recebeu INFORMACAO do Processo 3 no tempo 30.0
+Processo 10 recebeu INFORMACAO do Processo 6 no tempo 30.0
+Vetor STATE do Processo 10: [ CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN CORRETO UNKNOWN CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN CORRETO UNKNOWN ]
+
+Processo 11 testou o Processo 10 CORRETO no tempo 30.0
+Processo 11 recebeu INFORMACAO do Processo 0 no tempo 30.0
+Processo 11 recebeu INFORMACAO do Processo 1 no tempo 30.0
+Processo 11 recebeu INFORMACAO do Processo 2 no tempo 30.0
+Processo 11 recebeu INFORMACAO do Processo 3 no tempo 30.0
+Processo 11 recebeu INFORMACAO do Processo 4 no tempo 30.0
+Processo 11 recebeu INFORMACAO do Processo 6 no tempo 30.0
+Processo 11 recebeu INFORMACAO do Processo 8 no tempo 30.0
+Processo 11 recebeu INFORMACAO do Processo 9 no tempo 30.0
+Processo 11 recebeu INFORMACAO do Processo 10 no tempo 30.0
+Processo 11 recebeu INFORMACAO do Processo 12 no tempo 30.0
+Processo 11 recebeu INFORMACAO do Processo 14 no tempo 30.0
+Processo 11 testou o Processo 9 CORRETO no tempo 30.0
+Processo 11 recebeu INFORMACAO do Processo 5 no tempo 30.0
+Processo 11 recebeu INFORMACAO do Processo 13 no tempo 30.0
+Processo 11 testou o Processo 15 CORRETO no tempo 30.0
+Processo 11 recebeu INFORMACAO do Processo 15 no tempo 30.0
+Processo 11 testou o Processo 3 CORRETO no tempo 30.0
+Processo 11 recebeu INFORMACAO do Processo 7 no tempo 30.0
+Vetor STATE do Processo 11: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 12 testou o Processo 13 CORRETO no tempo 30.0
+Processo 12 recebeu INFORMACAO do Processo 13 no tempo 30.0
+Processo 12 testou o Processo 14 CORRETO no tempo 30.0
+Processo 12 recebeu INFORMACAO do Processo 14 no tempo 30.0
+Processo 12 testou o Processo 8 CORRETO no tempo 30.0
+Processo 12 recebeu INFORMACAO do Processo 0 no tempo 30.0
+Processo 12 recebeu INFORMACAO do Processo 1 no tempo 30.0
+Processo 12 recebeu INFORMACAO do Processo 2 no tempo 30.0
+Processo 12 recebeu INFORMACAO do Processo 4 no tempo 30.0
+Processo 12 recebeu INFORMACAO do Processo 8 no tempo 30.0
+Processo 12 recebeu INFORMACAO do Processo 9 no tempo 30.0
+Processo 12 recebeu INFORMACAO do Processo 10 no tempo 30.0
+Processo 12 testou o Processo 4 CORRETO no tempo 30.0
+Processo 12 recebeu INFORMACAO do Processo 5 no tempo 30.0
+Processo 12 recebeu INFORMACAO do Processo 6 no tempo 30.0
+Vetor STATE do Processo 12: [ CORRETO CORRETO CORRETO UNKNOWN CORRETO CORRETO CORRETO UNKNOWN CORRETO CORRETO CORRETO UNKNOWN CORRETO CORRETO CORRETO UNKNOWN ]
+
+Processo 13 testou o Processo 12 CORRETO no tempo 30.0
+Processo 13 recebeu INFORMACAO do Processo 0 no tempo 30.0
+Processo 13 recebeu INFORMACAO do Processo 1 no tempo 30.0
+Processo 13 recebeu INFORMACAO do Processo 2 no tempo 30.0
+Processo 13 recebeu INFORMACAO do Processo 4 no tempo 30.0
+Processo 13 recebeu INFORMACAO do Processo 5 no tempo 30.0
+Processo 13 recebeu INFORMACAO do Processo 6 no tempo 30.0
+Processo 13 recebeu INFORMACAO do Processo 8 no tempo 30.0
+Processo 13 recebeu INFORMACAO do Processo 9 no tempo 30.0
+Processo 13 recebeu INFORMACAO do Processo 10 no tempo 30.0
+Processo 13 recebeu INFORMACAO do Processo 12 no tempo 30.0
+Processo 13 recebeu INFORMACAO do Processo 14 no tempo 30.0
+Processo 13 testou o Processo 15 CORRETO no tempo 30.0
+Processo 13 recebeu INFORMACAO do Processo 15 no tempo 30.0
+Processo 13 testou o Processo 9 CORRETO no tempo 30.0
+Processo 13 recebeu INFORMACAO do Processo 3 no tempo 30.0
+Processo 13 recebeu INFORMACAO do Processo 11 no tempo 30.0
+Processo 13 testou o Processo 5 CORRETO no tempo 30.0
+Processo 13 recebeu INFORMACAO do Processo 7 no tempo 30.0
+Vetor STATE do Processo 13: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 14 testou o Processo 15 CORRETO no tempo 30.0
+Processo 14 recebeu INFORMACAO do Processo 15 no tempo 30.0
+Processo 14 testou o Processo 12 CORRETO no tempo 30.0
+Processo 14 recebeu INFORMACAO do Processo 0 no tempo 30.0
+Processo 14 recebeu INFORMACAO do Processo 1 no tempo 30.0
+Processo 14 recebeu INFORMACAO do Processo 2 no tempo 30.0
+Processo 14 recebeu INFORMACAO do Processo 4 no tempo 30.0
+Processo 14 recebeu INFORMACAO do Processo 5 no tempo 30.0
+Processo 14 recebeu INFORMACAO do Processo 6 no tempo 30.0
+Processo 14 recebeu INFORMACAO do Processo 8 no tempo 30.0
+Processo 14 recebeu INFORMACAO do Processo 9 no tempo 30.0
+Processo 14 recebeu INFORMACAO do Processo 10 no tempo 30.0
+Processo 14 recebeu INFORMACAO do Processo 12 no tempo 30.0
+Processo 14 recebeu INFORMACAO do Processo 13 no tempo 30.0
+Processo 14 testou o Processo 10 CORRETO no tempo 30.0
+Processo 14 recebeu INFORMACAO do Processo 3 no tempo 30.0
+Processo 14 recebeu INFORMACAO do Processo 11 no tempo 30.0
+Processo 14 testou o Processo 6 CORRETO no tempo 30.0
+Processo 14 recebeu INFORMACAO do Processo 7 no tempo 30.0
+Vetor STATE do Processo 14: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 15 testou o Processo 14 CORRETO no tempo 30.0
+Processo 15 recebeu INFORMACAO do Processo 0 no tempo 30.0
+Processo 15 recebeu INFORMACAO do Processo 1 no tempo 30.0
+Processo 15 recebeu INFORMACAO do Processo 2 no tempo 30.0
+Processo 15 recebeu INFORMACAO do Processo 3 no tempo 30.0
+Processo 15 recebeu INFORMACAO do Processo 4 no tempo 30.0
+Processo 15 recebeu INFORMACAO do Processo 5 no tempo 30.0
+Processo 15 recebeu INFORMACAO do Processo 6 no tempo 30.0
+Processo 15 recebeu INFORMACAO do Processo 7 no tempo 30.0
+Processo 15 recebeu INFORMACAO do Processo 8 no tempo 30.0
+Processo 15 recebeu INFORMACAO do Processo 9 no tempo 30.0
+Processo 15 recebeu INFORMACAO do Processo 10 no tempo 30.0
+Processo 15 recebeu INFORMACAO do Processo 11 no tempo 30.0
+Processo 15 recebeu INFORMACAO do Processo 12 no tempo 30.0
+Processo 15 recebeu INFORMACAO do Processo 13 no tempo 30.0
+Processo 15 recebeu INFORMACAO do Processo 14 no tempo 30.0
+Processo 15 testou o Processo 13 CORRETO no tempo 30.0
+Processo 15 testou o Processo 11 CORRETO no tempo 30.0
+Processo 15 testou o Processo 7 CORRETO no tempo 30.0
+Vetor STATE do Processo 15: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 0 testou o Processo 1 CORRETO no tempo 60.0
+Processo 0 recebeu INFORMACAO do Processo 3 no tempo 60.0
+Processo 0 recebeu INFORMACAO do Processo 5 no tempo 60.0
+Processo 0 recebeu INFORMACAO do Processo 9 no tempo 60.0
+Processo 0 testou o Processo 2 CORRETO no tempo 60.0
+Processo 0 recebeu INFORMACAO do Processo 6 no tempo 60.0
+Processo 0 recebeu INFORMACAO do Processo 10 no tempo 60.0
+Processo 0 testou o Processo 4 CORRETO no tempo 60.0
+Processo 0 recebeu INFORMACAO do Processo 12 no tempo 60.0
+Processo 0 testou o Processo 8 CORRETO no tempo 60.0
+Vetor STATE do Processo 0: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN CORRETO CORRETO CORRETO UNKNOWN CORRETO UNKNOWN UNKNOWN UNKNOWN ]
+
+Processo 1 testou o Processo 0 CORRETO no tempo 60.0
+Processo 1 recebeu INFORMACAO do Processo 6 no tempo 60.0
+Processo 1 recebeu INFORMACAO do Processo 10 no tempo 60.0
+Processo 1 recebeu INFORMACAO do Processo 12 no tempo 60.0
+Processo 1 testou o Processo 3 CORRETO no tempo 60.0
+Processo 1 recebeu INFORMACAO do Processo 7 no tempo 60.0
+Processo 1 recebeu INFORMACAO do Processo 11 no tempo 60.0
+Processo 1 testou o Processo 5 CORRETO no tempo 60.0
+Processo 1 recebeu INFORMACAO do Processo 13 no tempo 60.0
+Processo 1 testou o Processo 9 CORRETO no tempo 60.0
+Vetor STATE do Processo 1: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN UNKNOWN ]
+
+Processo 2 testou o Processo 3 CORRETO no tempo 60.0
+Processo 2 recebeu INFORMACAO do Processo 5 no tempo 60.0
+Processo 2 recebeu INFORMACAO do Processo 7 no tempo 60.0
+Processo 2 recebeu INFORMACAO do Processo 9 no tempo 60.0
+Processo 2 recebeu INFORMACAO do Processo 11 no tempo 60.0
+Processo 2 testou o Processo 0 CORRETO no tempo 60.0
+Processo 2 recebeu INFORMACAO do Processo 12 no tempo 60.0
+Processo 2 testou o Processo 6 CORRETO no tempo 60.0
+Processo 2 recebeu INFORMACAO do Processo 14 no tempo 60.0
+Processo 2 testou o Processo 10 CORRETO no tempo 60.0
+Vetor STATE do Processo 2: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN CORRETO UNKNOWN ]
+
+Processo 3 testou o Processo 2 CORRETO no tempo 60.0
+Processo 3 recebeu INFORMACAO do Processo 12 no tempo 60.0
+Processo 3 recebeu INFORMACAO do Processo 14 no tempo 60.0
+Processo 3 testou o Processo 1 CORRETO no tempo 60.0
+Processo 3 recebeu INFORMACAO do Processo 13 no tempo 60.0
+Processo 3 testou o Processo 7 CORRETO no tempo 60.0
+Processo 3 recebeu INFORMACAO do Processo 15 no tempo 60.0
+Processo 3 testou o Processo 11 CORRETO no tempo 60.0
+Vetor STATE do Processo 3: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 4 testou o Processo 5 CORRETO no tempo 60.0
+Processo 4 recebeu INFORMACAO do Processo 3 no tempo 60.0
+Processo 4 recebeu INFORMACAO do Processo 7 no tempo 60.0
+Processo 4 recebeu INFORMACAO do Processo 9 no tempo 60.0
+Processo 4 recebeu INFORMACAO do Processo 13 no tempo 60.0
+Processo 4 testou o Processo 6 CORRETO no tempo 60.0
+Processo 4 recebeu INFORMACAO do Processo 10 no tempo 60.0
+Processo 4 recebeu INFORMACAO do Processo 14 no tempo 60.0
+Processo 4 testou o Processo 0 CORRETO no tempo 60.0
+Processo 4 testou o Processo 12 CORRETO no tempo 60.0
+Vetor STATE do Processo 4: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN CORRETO CORRETO CORRETO UNKNOWN ]
+
+Processo 5 testou o Processo 4 CORRETO no tempo 60.0
+Processo 5 recebeu INFORMACAO do Processo 10 no tempo 60.0
+Processo 5 recebeu INFORMACAO do Processo 14 no tempo 60.0
+Processo 5 testou o Processo 7 CORRETO no tempo 60.0
+Processo 5 recebeu INFORMACAO do Processo 11 no tempo 60.0
+Processo 5 recebeu INFORMACAO do Processo 15 no tempo 60.0
+Processo 5 testou o Processo 1 CORRETO no tempo 60.0
+Processo 5 testou o Processo 13 CORRETO no tempo 60.0
+Vetor STATE do Processo 5: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 6 testou o Processo 7 CORRETO no tempo 60.0
+Processo 6 recebeu INFORMACAO do Processo 9 no tempo 60.0
+Processo 6 recebeu INFORMACAO do Processo 11 no tempo 60.0
+Processo 6 recebeu INFORMACAO do Processo 13 no tempo 60.0
+Processo 6 recebeu INFORMACAO do Processo 15 no tempo 60.0
+Processo 6 testou o Processo 4 CORRETO no tempo 60.0
+Processo 6 testou o Processo 2 CORRETO no tempo 60.0
+Processo 6 testou o Processo 14 CORRETO no tempo 60.0
+Vetor STATE do Processo 6: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 7 testou o Processo 6 CORRETO no tempo 60.0
+Processo 7 testou o Processo 5 CORRETO no tempo 60.0
+Processo 7 testou o Processo 3 CORRETO no tempo 60.0
+Processo 7 testou o Processo 15 CORRETO no tempo 60.0
+Vetor STATE do Processo 7: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 8 testou o Processo 9 CORRETO no tempo 60.0
+Processo 8 recebeu INFORMACAO do Processo 3 no tempo 60.0
+Processo 8 recebeu INFORMACAO do Processo 5 no tempo 60.0
+Processo 8 recebeu INFORMACAO do Processo 11 no tempo 60.0
+Processo 8 recebeu INFORMACAO do Processo 13 no tempo 60.0
+Processo 8 testou o Processo 10 CORRETO no tempo 60.0
+Processo 8 recebeu INFORMACAO do Processo 6 no tempo 60.0
+Processo 8 recebeu INFORMACAO do Processo 14 no tempo 60.0
+Processo 8 testou o Processo 12 CORRETO no tempo 60.0
+Processo 8 testou o Processo 0 CORRETO no tempo 60.0
+Vetor STATE do Processo 8: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN ]
+
+Processo 9 testou o Processo 8 CORRETO no tempo 60.0
+Processo 9 recebeu INFORMACAO do Processo 6 no tempo 60.0
+Processo 9 recebeu INFORMACAO do Processo 14 no tempo 60.0
+Processo 9 testou o Processo 11 CORRETO no tempo 60.0
+Processo 9 recebeu INFORMACAO do Processo 7 no tempo 60.0
+Processo 9 recebeu INFORMACAO do Processo 15 no tempo 60.0
+Processo 9 testou o Processo 13 CORRETO no tempo 60.0
+Processo 9 testou o Processo 1 CORRETO no tempo 60.0
+Vetor STATE do Processo 9: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 10 testou o Processo 11 CORRETO no tempo 60.0
+Processo 10 recebeu INFORMACAO do Processo 5 no tempo 60.0
+Processo 10 recebeu INFORMACAO do Processo 7 no tempo 60.0
+Processo 10 recebeu INFORMACAO do Processo 13 no tempo 60.0
+Processo 10 recebeu INFORMACAO do Processo 15 no tempo 60.0
+Processo 10 testou o Processo 8 CORRETO no tempo 60.0
+Processo 10 testou o Processo 14 CORRETO no tempo 60.0
+Processo 10 testou o Processo 2 CORRETO no tempo 60.0
+Vetor STATE do Processo 10: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 11 testou o Processo 10 CORRETO no tempo 60.0
+Processo 11 testou o Processo 9 CORRETO no tempo 60.0
+Processo 11 testou o Processo 15 CORRETO no tempo 60.0
+Processo 11 testou o Processo 3 CORRETO no tempo 60.0
+Vetor STATE do Processo 11: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 12 testou o Processo 13 CORRETO no tempo 60.0
+Processo 12 recebeu INFORMACAO do Processo 3 no tempo 60.0
+Processo 12 recebeu INFORMACAO do Processo 7 no tempo 60.0
+Processo 12 recebeu INFORMACAO do Processo 11 no tempo 60.0
+Processo 12 recebeu INFORMACAO do Processo 15 no tempo 60.0
+Processo 12 testou o Processo 14 CORRETO no tempo 60.0
+Processo 12 testou o Processo 8 CORRETO no tempo 60.0
+Processo 12 testou o Processo 4 CORRETO no tempo 60.0
+Vetor STATE do Processo 12: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 13 testou o Processo 12 CORRETO no tempo 60.0
+Processo 13 testou o Processo 15 CORRETO no tempo 60.0
+Processo 13 testou o Processo 9 CORRETO no tempo 60.0
+Processo 13 testou o Processo 5 CORRETO no tempo 60.0
+Vetor STATE do Processo 13: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 14 testou o Processo 15 CORRETO no tempo 60.0
+Processo 14 testou o Processo 12 CORRETO no tempo 60.0
+Processo 14 testou o Processo 10 CORRETO no tempo 60.0
+Processo 14 testou o Processo 6 CORRETO no tempo 60.0
+Vetor STATE do Processo 14: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 15 testou o Processo 14 CORRETO no tempo 60.0
+Processo 15 testou o Processo 13 CORRETO no tempo 60.0
+Processo 15 testou o Processo 11 CORRETO no tempo 60.0
+Processo 15 testou o Processo 7 CORRETO no tempo 60.0
+Vetor STATE do Processo 15: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 0 testou o Processo 1 CORRETO no tempo 90.0
+Processo 0 recebeu INFORMACAO do Processo 7 no tempo 90.0
+Processo 0 recebeu INFORMACAO do Processo 11 no tempo 90.0
+Processo 0 recebeu INFORMACAO do Processo 13 no tempo 90.0
+Processo 0 testou o Processo 2 CORRETO no tempo 90.0
+Processo 0 recebeu INFORMACAO do Processo 14 no tempo 90.0
+Processo 0 testou o Processo 4 CORRETO no tempo 90.0
+Processo 0 testou o Processo 8 CORRETO no tempo 90.0
+Vetor STATE do Processo 0: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO UNKNOWN ]
+
+Processo 1 testou o Processo 0 CORRETO no tempo 90.0
+Processo 1 recebeu INFORMACAO do Processo 14 no tempo 90.0
+Processo 1 testou o Processo 3 CORRETO no tempo 90.0
+Processo 1 recebeu INFORMACAO do Processo 15 no tempo 90.0
+Processo 1 testou o Processo 5 CORRETO no tempo 90.0
+Processo 1 testou o Processo 9 CORRETO no tempo 90.0
+Vetor STATE do Processo 1: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 2 testou o Processo 3 CORRETO no tempo 90.0
+Processo 2 recebeu INFORMACAO do Processo 13 no tempo 90.0
+Processo 2 recebeu INFORMACAO do Processo 15 no tempo 90.0
+Processo 2 testou o Processo 0 CORRETO no tempo 90.0
+Processo 2 testou o Processo 6 CORRETO no tempo 90.0
+Processo 2 testou o Processo 10 CORRETO no tempo 90.0
+Vetor STATE do Processo 2: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 3 testou o Processo 2 CORRETO no tempo 90.0
+Processo 3 testou o Processo 1 CORRETO no tempo 90.0
+Processo 3 testou o Processo 7 CORRETO no tempo 90.0
+Processo 3 testou o Processo 11 CORRETO no tempo 90.0
+Vetor STATE do Processo 3: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 4 testou o Processo 5 CORRETO no tempo 90.0
+Processo 4 recebeu INFORMACAO do Processo 11 no tempo 90.0
+Processo 4 recebeu INFORMACAO do Processo 15 no tempo 90.0
+Processo 4 testou o Processo 6 CORRETO no tempo 90.0
+Processo 4 testou o Processo 0 CORRETO no tempo 90.0
+Processo 4 testou o Processo 12 CORRETO no tempo 90.0
+Vetor STATE do Processo 4: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 5 testou o Processo 4 CORRETO no tempo 90.0
+Processo 5 testou o Processo 7 CORRETO no tempo 90.0
+Processo 5 testou o Processo 1 CORRETO no tempo 90.0
+Processo 5 testou o Processo 13 CORRETO no tempo 90.0
+Vetor STATE do Processo 5: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 6 testou o Processo 7 CORRETO no tempo 90.0
+Processo 6 testou o Processo 4 CORRETO no tempo 90.0
+Processo 6 testou o Processo 2 CORRETO no tempo 90.0
+Processo 6 testou o Processo 14 CORRETO no tempo 90.0
+Vetor STATE do Processo 6: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 7 testou o Processo 6 CORRETO no tempo 90.0
+Processo 7 testou o Processo 5 CORRETO no tempo 90.0
+Processo 7 testou o Processo 3 CORRETO no tempo 90.0
+Processo 7 testou o Processo 15 CORRETO no tempo 90.0
+Vetor STATE do Processo 7: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 8 testou o Processo 9 CORRETO no tempo 90.0
+Processo 8 recebeu INFORMACAO do Processo 7 no tempo 90.0
+Processo 8 recebeu INFORMACAO do Processo 15 no tempo 90.0
+Processo 8 testou o Processo 10 CORRETO no tempo 90.0
+Processo 8 testou o Processo 12 CORRETO no tempo 90.0
+Processo 8 testou o Processo 0 CORRETO no tempo 90.0
+Vetor STATE do Processo 8: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 9 testou o Processo 8 CORRETO no tempo 90.0
+Processo 9 testou o Processo 11 CORRETO no tempo 90.0
+Processo 9 testou o Processo 13 CORRETO no tempo 90.0
+Processo 9 testou o Processo 1 CORRETO no tempo 90.0
+Vetor STATE do Processo 9: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 10 testou o Processo 11 CORRETO no tempo 90.0
+Processo 10 testou o Processo 8 CORRETO no tempo 90.0
+Processo 10 testou o Processo 14 CORRETO no tempo 90.0
+Processo 10 testou o Processo 2 CORRETO no tempo 90.0
+Vetor STATE do Processo 10: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 11 testou o Processo 10 CORRETO no tempo 90.0
+Processo 11 testou o Processo 9 CORRETO no tempo 90.0
+Processo 11 testou o Processo 15 CORRETO no tempo 90.0
+Processo 11 testou o Processo 3 CORRETO no tempo 90.0
+Vetor STATE do Processo 11: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 12 testou o Processo 13 CORRETO no tempo 90.0
+Processo 12 testou o Processo 14 CORRETO no tempo 90.0
+Processo 12 testou o Processo 8 CORRETO no tempo 90.0
+Processo 12 testou o Processo 4 CORRETO no tempo 90.0
+Vetor STATE do Processo 12: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 13 testou o Processo 12 CORRETO no tempo 90.0
+Processo 13 testou o Processo 15 CORRETO no tempo 90.0
+Processo 13 testou o Processo 9 CORRETO no tempo 90.0
+Processo 13 testou o Processo 5 CORRETO no tempo 90.0
+Vetor STATE do Processo 13: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 14 testou o Processo 15 CORRETO no tempo 90.0
+Processo 14 testou o Processo 12 CORRETO no tempo 90.0
+Processo 14 testou o Processo 10 CORRETO no tempo 90.0
+Processo 14 testou o Processo 6 CORRETO no tempo 90.0
+Vetor STATE do Processo 14: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 15 testou o Processo 14 CORRETO no tempo 90.0
+Processo 15 testou o Processo 13 CORRETO no tempo 90.0
+Processo 15 testou o Processo 11 CORRETO no tempo 90.0
+Processo 15 testou o Processo 7 CORRETO no tempo 90.0
+Vetor STATE do Processo 15: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 0 testou o Processo 1 CORRETO no tempo 120.0
+Processo 0 recebeu INFORMACAO do Processo 15 no tempo 120.0
+Processo 0 testou o Processo 2 CORRETO no tempo 120.0
+Processo 0 testou o Processo 4 CORRETO no tempo 120.0
+Processo 0 testou o Processo 8 CORRETO no tempo 120.0
+Vetor STATE do Processo 0: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 1 testou o Processo 0 CORRETO no tempo 120.0
+Processo 1 testou o Processo 3 CORRETO no tempo 120.0
+Processo 1 testou o Processo 5 CORRETO no tempo 120.0
+Processo 1 testou o Processo 9 CORRETO no tempo 120.0
+Vetor STATE do Processo 1: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 2 testou o Processo 3 CORRETO no tempo 120.0
+Processo 2 testou o Processo 0 CORRETO no tempo 120.0
+Processo 2 testou o Processo 6 CORRETO no tempo 120.0
+Processo 2 testou o Processo 10 CORRETO no tempo 120.0
+Vetor STATE do Processo 2: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 3 testou o Processo 2 CORRETO no tempo 120.0
+Processo 3 testou o Processo 1 CORRETO no tempo 120.0
+Processo 3 testou o Processo 7 CORRETO no tempo 120.0
+Processo 3 testou o Processo 11 CORRETO no tempo 120.0
+Vetor STATE do Processo 3: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 4 testou o Processo 5 CORRETO no tempo 120.0
+Processo 4 testou o Processo 6 CORRETO no tempo 120.0
+Processo 4 testou o Processo 0 CORRETO no tempo 120.0
+Processo 4 testou o Processo 12 CORRETO no tempo 120.0
+Vetor STATE do Processo 4: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 5 testou o Processo 4 CORRETO no tempo 120.0
+Processo 5 testou o Processo 7 CORRETO no tempo 120.0
+Processo 5 testou o Processo 1 CORRETO no tempo 120.0
+Processo 5 testou o Processo 13 CORRETO no tempo 120.0
+Vetor STATE do Processo 5: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 6 testou o Processo 7 CORRETO no tempo 120.0
+Processo 6 testou o Processo 4 CORRETO no tempo 120.0
+Processo 6 testou o Processo 2 CORRETO no tempo 120.0
+Processo 6 testou o Processo 14 CORRETO no tempo 120.0
+Vetor STATE do Processo 6: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 7 testou o Processo 6 CORRETO no tempo 120.0
+Processo 7 testou o Processo 5 CORRETO no tempo 120.0
+Processo 7 testou o Processo 3 CORRETO no tempo 120.0
+Processo 7 testou o Processo 15 CORRETO no tempo 120.0
+Vetor STATE do Processo 7: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 8 testou o Processo 9 CORRETO no tempo 120.0
+Processo 8 testou o Processo 10 CORRETO no tempo 120.0
+Processo 8 testou o Processo 12 CORRETO no tempo 120.0
+Processo 8 testou o Processo 0 CORRETO no tempo 120.0
+Vetor STATE do Processo 8: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 9 testou o Processo 8 CORRETO no tempo 120.0
+Processo 9 testou o Processo 11 CORRETO no tempo 120.0
+Processo 9 testou o Processo 13 CORRETO no tempo 120.0
+Processo 9 testou o Processo 1 CORRETO no tempo 120.0
+Vetor STATE do Processo 9: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 10 testou o Processo 11 CORRETO no tempo 120.0
+Processo 10 testou o Processo 8 CORRETO no tempo 120.0
+Processo 10 testou o Processo 14 CORRETO no tempo 120.0
+Processo 10 testou o Processo 2 CORRETO no tempo 120.0
+Vetor STATE do Processo 10: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 11 testou o Processo 10 CORRETO no tempo 120.0
+Processo 11 testou o Processo 9 CORRETO no tempo 120.0
+Processo 11 testou o Processo 15 CORRETO no tempo 120.0
+Processo 11 testou o Processo 3 CORRETO no tempo 120.0
+Vetor STATE do Processo 11: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 12 testou o Processo 13 CORRETO no tempo 120.0
+Processo 12 testou o Processo 14 CORRETO no tempo 120.0
+Processo 12 testou o Processo 8 CORRETO no tempo 120.0
+Processo 12 testou o Processo 4 CORRETO no tempo 120.0
+Vetor STATE do Processo 12: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 13 testou o Processo 12 CORRETO no tempo 120.0
+Processo 13 testou o Processo 15 CORRETO no tempo 120.0
+Processo 13 testou o Processo 9 CORRETO no tempo 120.0
+Processo 13 testou o Processo 5 CORRETO no tempo 120.0
+Vetor STATE do Processo 13: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 14 testou o Processo 15 CORRETO no tempo 120.0
+Processo 14 testou o Processo 12 CORRETO no tempo 120.0
+Processo 14 testou o Processo 10 CORRETO no tempo 120.0
+Processo 14 testou o Processo 6 CORRETO no tempo 120.0
+Vetor STATE do Processo 14: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 15 testou o Processo 14 CORRETO no tempo 120.0
+Processo 15 testou o Processo 13 CORRETO no tempo 120.0
+Processo 15 testou o Processo 11 CORRETO no tempo 120.0
+Processo 15 testou o Processo 7 CORRETO no tempo 120.0
+Vetor STATE do Processo 15: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
+
+Processo 0 testou o Processo 1 CORRETO no tempo 150.0
+Processo 0 testou o Processo 2 CORRETO no tempo 150.0
+Processo 0 testou o Processo 4 CORRETO no tempo 150.0
+Processo 0 testou o Processo 8 CORRETO no tempo 150.0
+Vetor STATE do Processo 0: [ CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO CORRETO ]
